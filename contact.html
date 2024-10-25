@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контактна форма</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="images/logo.png" alt="Train Enthusiasts Logo" />
+      </div>
+      <ul>
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="train.html">Влакове</a></li>
+        <li><a href="blog.html">Блог</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container">
+      <!-- Contact Form Section -->
+      <div class="contact-form-container">
+        <h2>Контактна форма</h2>
+        <form class="contact-form" action="your-server-endpoint" method="post">
+          <div class="form-group">
+            <label for="name">Име:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Имейл:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Тема:</label>
+            <input type="text" id="subject" name="subject" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Съобщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Изпрати съобщение</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="index.html">Начало</a> | <a href="train.html">Влакове</a> |
+        <a href="blog.html">Блог</a> |
+        <a href="contact.html">Контакти</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">&#120125;</a>
+        <a href="https://www.instagram.com" target="_blank">&#128247;</a>
+        <a href="https://www.twitter.com" target="_blank">&#128038;</a>
+      </div>
+      <p>&copy; 2024 Train Enthusiasts. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Блог - Train Enthusiasts</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <style>
+      /* Blog-specific styles */
+      .blog-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        max-width: 1200px; /* Set max width for blog content */
+      }
+
+      .blog-posts {
+        flex: 3; /* Main area for blog posts */
+        margin-right: 20px; /* Space between posts and sidebar */
+      }
+
+      .post {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px; /* Space between posts */
+      }
+
+      .post h3 {
+        color: #007bff; /* Blue heading */
+        margin-bottom: 10px;
+      }
+
+      .post p {
+        margin-bottom: 15px;
+      }
+
+      .sidebar {
+        flex: 1; /* Sidebar on the right */
+        background-color: #f5f5f5; /* Light gray background */
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .sidebar h4 {
+        margin-bottom: 15px; /* Space below heading */
+      }
+
+      .sidebar a {
+        display: block; /* Links take full width */
+        color: #007bff; /* Blue link color */
+        margin-bottom: 10px; /* Space between links */
+        text-decoration: none; /* No underline */
+      }
+
+      .sidebar a:hover {
+        text-decoration: underline; /* Underline on hover */
+      }
+
+      .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        margin: 0; /* Ensure no margins */
+        box-sizing: border-box; /* Include padding and borders in the element's width */
+      }
+
+      .footer-links {
+        margin-bottom: 15px;
+      }
+
+      .footer-links a {
+        color: white;
+        margin: 0 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .social-icons a {
+        margin: 0 10px;
+        color: white;
+        font-size: 20px;
+      }
+
+      /* Center the blog title */
+      h1 {
+        text-align: center;
+        color: #333;
+        font-family: "Bitter", serif; /* Ensuring consistency with other titles */
+        margin-top: 25px;
+        margin-bottom: 20px; /* Space below title */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="images/logo.png" alt="Train Enthusiasts Logo" />
+      </div>
+      <ul>
+        <li><a href="index.html">Начало</a></li>
+        <li><a href="train.html">Влакове</a></li>
+        <li><a href="blog.html">Блог</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Blog Container -->
+    <div class="container">
+      <h1>Блог</h1>
+
+      <div class="blog-container">
+        <!-- Blog Posts Section -->
+        <div class="blog-posts">
+          <div class="post">
+            <h3>Новини за влаковете в България</h3>
+            <p>
+              През последните месеци БДЖ представи нови маршрути и услуги.
+              Прочетете повече за най-новите промени в графика на влаковете.
+            </p>
+            <a
+              href="https://www.bdz.bg/bg/live-updates"
+              target="_blank"
+              class="btn"
+              >Прочети повече</a
+            >
+          </div>
+          <div class="post">
+            <h3>Екологични влакове в Европа</h3>
+            <p>
+              Как новите технологии променят железопътния транспорт и какви са
+              ползите за околната среда. Споделяме примери от Европа.
+            </p>
+            <a
+              href="https://telegraph.bg/telegraphplus/vodorodnite-vlakove-bydeshteto-na-ekologichna-evropa-216166"
+              class="btn"
+              target="_blank"
+              >Прочети повече</a
+            >
+          </div>
+          <div class="post">
+            <h3>Най-красивите железопътни маршрути</h3>
+            <p>
+              Представяме ви списък с най-красивите железопътни маршрути по
+              света. Планирайте следващото си пътуване с влак!
+            </p>
+            <a href="https://nova.bg/live" target="_blank" class="btn"
+              >Прочети повече</a
+            >
+          </div>
+        </div>
+
+        <!-- Sidebar Section -->
+        <div class="sidebar">
+          <h4>Нови постове</h4>
+          <a href="blog-post1.html">Новини за влаковете в България</a>
+          <a href="blog-post2.html">Екологични влакове в Европа</a>
+          <a href="blog-post3.html">Най-красивите железопътни маршрути</a>
+          <h4>Свързани линкове</h4>
+          <a href="train.html">Информация за влакове</a>
+          <a href="contact.html">Контактна форма</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="index.html">Начало</a> | <a href="train.html">Влакове</a> |
+        <a href="blog.html">Блог</a> |
+        <a href="contact.html">Контакти</a>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">&#120125;</a>
+        <a href="https://www.instagram.com" target="_blank">&#128247;</a>
+        <a href="https://www.twitter.com" target="_blank">&#128038;</a>
+      </div>
+      <p>&copy; 2024 Train Enthusiasts. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
