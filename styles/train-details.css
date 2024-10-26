@@ -1,0 +1,67 @@
+.details-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-h {
+  font-size: 22px;
+  color: #0000006a;
+  text-align: center;
+  border-bottom: #333 2px solid;
+  padding-bottom: 10px;
+}
+
+.train-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.train-details h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.train-details h3 {
+  color: #333;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.train-details p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: calc(33% - 10px);
+  border-radius: 5px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #007bff;
+  color: white;
+}

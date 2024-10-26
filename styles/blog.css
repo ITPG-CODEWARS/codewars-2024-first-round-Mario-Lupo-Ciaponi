@@ -1,0 +1,86 @@
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1200px; /* Set max width for blog content */
+}
+
+.blog-posts {
+  flex: 3; /* Main area for blog posts */
+  margin-right: 20px; /* Space between posts and sidebar */
+}
+
+.post {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Space between posts */
+}
+
+.post h3 {
+  color: #007bff; /* Blue heading */
+  margin-bottom: 10px;
+}
+
+.post p {
+  margin-bottom: 15px;
+}
+
+.sidebar {
+  flex: 1; /* Sidebar on the right */
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h4 {
+  margin-bottom: 15px; /* Space below heading */
+}
+
+.sidebar a {
+  display: block; /* Links take full width */
+  color: #007bff; /* Blue link color */
+  margin-bottom: 10px; /* Space between links */
+  text-decoration: none; /* No underline */
+}
+
+.sidebar a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0; /* Ensure no margins */
+  box-sizing: border-box; /* Include padding and borders in the element's width */
+}
+
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Center the blog title */
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: "Bitter", serif; /* Ensuring consistency with other titles */
+  margin-top: 25px;
+  margin-bottom: 20px; /* Space below title */
+}
