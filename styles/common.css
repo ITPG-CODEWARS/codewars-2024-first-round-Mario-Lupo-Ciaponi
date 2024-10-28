@@ -57,11 +57,11 @@ a {
   color: white;
   padding: 20px 0;
   text-align: center;
-  margin: 0; /* Ensure no margins */
+  margin: 0;
   margin-top: 20px;
   position: relative;
-  left: 0; /* Ensure the footer is aligned to the left */
-  box-sizing: border-box; /* Include padding and borders in the element's width */
+  left: 0;
+  box-sizing: border-box;
 }
 
 .footer-links {
